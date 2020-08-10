@@ -23,7 +23,7 @@ function mostrar() {
 	for (let i = 0; i < 5; i++) {
 		nombre = prompt("Ingrese nombre");
 		while (!(isNaN(nombre))) {
-			nombre = prompt("Inválido.Ingrese nombre");
+			nombre = prompt("Inválido. Ingrese nombre");
 		}
 
 		temperatura = parseFloat(prompt("Ingrese la temperatura de la persona"));
